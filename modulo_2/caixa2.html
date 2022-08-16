@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grouping Tags</title>
+	<style>
+		body{
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: dimgray;
+		}
+		header{
+			background-color: aliceblue;
+			padding: 10px;
+			margin: 10px;
+		}
+		main{
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 10px 40px;
+			box-shadow: 4px 4px 9px 2px (rgba(0, 0, 0, 0.438));
+
+		}
+		footer{
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding: 5px;
+			margin: 0px;
+
+		}
+		footer > p {
+			margin: 0px;
+		}
+		article{
+			background-color: lightslategray;
+		}
+		article > aside {
+			background-color: aqua;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Meu site</h1>
+	<nav>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+		<a href="#">link</a>
+	</nav>
+	</header>
+	<main>
+		<section id='assuntos'>
+		</section>
+		<section id='noticias'>
+			<article>
+				<h2>noticia sobre o brasil</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sit ipsum distinctio sapiente id, enim quam nam sed veniam aut illum culpa, sequi nemo a ducimus iusto maxime fugiat magni.</p>
+			<aside>
+				<p> Artigo estrito por fulado de tal</p>
+			</aside>
+		</article>
+		<article>
+
+<!-- tag main: é usada para indicar o conteúdo principal do texto
+		- tag article: é para indicar se o conteudo é ou faz parte de um artigo, é o texto principal do site, usado no texto e nos sites de pesquisa
+		- tag aside: conteudo secundario da pagina, pagina de menu, nome de autores, etc
+		- tag nav: agrupa tags de navegação
+		- tag section: usada para definir uma seção do documento, mas tem tags mais fortes,
+		- sendo elas mais (corpo principal), footer (rodape) reader (cabeçalho)
+		de resto pode usar
+		- tag footer > p: define o css e edições do paragrafo existente dentro do footer-->
+
+
+		</article>
+	</main>
+	<footer>
+		<p>Desenvolvido por cursoemvídeo</p>
+	</footer>
+</body>
+</html>

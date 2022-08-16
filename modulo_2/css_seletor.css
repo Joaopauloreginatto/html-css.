@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+	background-color:rgb(128, 221, 100);
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	color:rgb(67, 65, 75);
+}
+
+#principal {
+	text-align: center;
+	color: darkblue;
+}
+
+h2 {
+	color: darkgreen;
+}
+h2.basico{
+	color: red;
+}
+.testando12{
+	color: rgb(90, 79, 79);
+	font-size:x-large;
+}
+.teste34{
+	background-color: rgb(255, 255, 3);
+}
