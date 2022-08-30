@@ -15,9 +15,9 @@
 }
 
 html, body{
-    background-color: darkgray;
     min-height: 100vh;
     font-family: var(--fonte1);
+    font-size:2em;
 }
 header{
     background-color:black;
@@ -46,10 +46,10 @@ section{
     line-height: 2em;
     padding-left:30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 section>p {
-    padding: 2em;
+    padding-bottom: 2em;
 }
 section.normal {
     background-color: white;
@@ -82,6 +82,7 @@ footer{
     color:white;
     text-align: center;
     padding: 10px;
+    font-size: 0.5em;
 }
 
 
